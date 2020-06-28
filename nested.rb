@@ -6,7 +6,7 @@ def hopper
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
-        :alan_kay => {
+        :alan_kay => {  
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
@@ -21,6 +21,7 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+	return programmer_hash[:alan_key] [:known_for]
 	
 	programmer_hash = 
  		{
